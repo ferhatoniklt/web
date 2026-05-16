@@ -1,0 +1,33 @@
+RewriteEngine On
+RewriteBase /
+
+# 1. Sitemap Yönlendirmesi
+RewriteRule ^sitemap\.xml$ sitemap.php [L]
+
+# 2. Dosya veya klasör gerçekten varsa kuralı bozma, direkt dosyayı aç
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# 3. KATEGORİ SEO YÖNLENDİRMELERİ (YENİ EKLENEN GOD MODE)
+# oniklotho.xyz/games yazınca arka planda category_all.php?id=1 çalışır
+RewriteRule ^games/?$ category_all.php?id=1 [L,QSA]
+RewriteRule ^movies/?$ category_all.php?id=2 [L,QSA]
+RewriteRule ^software/?$ category_all.php?id=3 [L,QSA]
+RewriteRule ^nsfw/?$ category_all.php?id=4 [L,QSA]
+RewriteRule ^apk/?$ category_all.php?id=5 [L,QSA]
+
+# (Opsiyonel) Eğer ileride /category/12 gibi bir ID ile girmek istersen diye yedek kural:
+RewriteRule ^category/([0-9]+)/?$ category_all.php?id=$1 [L,QSA]
+
+# 4. Detay Sayfası Yönlendirmesi
+RewriteRule ^content/([a-zA-Z0-9_-]+)$ content_details.php?url=$1 [L,QSA]
+RewriteCond %{THE_REQUEST} /content\.php\?url=([^&\s]+) [NC]
+RewriteRule ^ /content/%1? [R=301,L]
+
+# 5. PHP Uzantısını Gizleme
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# 6. Sunucu Ayarları
+php_value allow_url_fopen On

@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "oniklotho-index",
+  "private_key_id": "0a99a677d0294999c3814de33fcf0011d5908f6c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDl1KpSGJcB3ZHY\nqIx9PUlkcaWaPqADouTAIXZYiig/DLSOPvClDgydx3zAfbj9FSqmVrATnHdy1DnR\nuPWJx72SVB6GaMpihO5U8UBwxGqBDo5wpSULZcE5RY1MCp/WilOO3OkGHfe5X+7P\nVFA5KLD/614jFK1iCk2ygn1PEvHzG3wPYJ+gJIQfeTTnRu5z+HVamJ+a7gdsGSlO\n+GNiIHZFfn79k7L8+EzmVqChfuVtqnT+sEl7lPXeJcIGIT8EZgLLbR7m4AZgli0E\noD2HmbAE7MWSkfRpvNg1YRZkm7cNjUuU4RM4YRCytYcLXHOlz7IngdXpK0wyvEjR\nM3KUyLCPAgMBAAECggEAOt3XqiNmOjIYMxgos8NI0xNQyUsVDRlh4dwwRclNOaj1\nbiGs3XnVvWvlBiCtixUq0WQOwVcoOR8mmBL5wQqKAbrN/rtEayuFJ/iK+tc0OE4U\nKcIC1QKBFTw9TqbB/d98O3FVth1i3/Y0YqJD0gAcJdCRUgbvyda9w+UsV16Q3iVF\nwU57pADJfz8eBOzAQEQz6782le2XzXy3txexghYYoRgD+XqPUdiKd3ljg8sa92x0\n05cZxq5/6g0f6U8uyKGjXqJawN9kGyaASrhyGWO/lDmDyPIYBUIag8AaYrvBVSR5\n6CndBVv/xJShVYLMO1FeWa2HmG7dhrVw6+0eWtYHgQKBgQD2j+e3GAAFaaEjoT6a\nzk6KIr4r7pw4NSiBNIqx5Jpz91f3DKgv6UOrD3Ojob2anN253vasKl3+6DOUCaR1\n/oGmRotchZgFb9GrdtYhKtj5WHIEq8FJhixBApIRB5xOYWe1+rXH4UE/yh2eZllD\nVr+CEWNayUgVEMw4Jxg8601CrwKBgQDuoM6SqZDYI/nYDUmse5hY13tAUk59Jhhh\nxPjVHpvGt60eSo5ZEfBJ315Ki+5U34Kjg9UbK5JO09RRsnF/jCdXyYPDPu8rBkMQ\n1PBBfDuW+6Uev4AZGeLjLiHsGF3urs2pqZs/ZULvzEBXBxqGv6aYqRPgom1rNI86\nZnvNzgRoIQKBgQDXe5ULE1KRaGuH9Bf+u2cwmoSRaIvnI64unXjJV/0UdIrQQqOK\nm9aj3XE3BNfsFERDeXUjqjNT4COTsYmmBbPRWb3aMndV6Q/ZRpaFjijqYj3jjyfx\n1e0/M7vsXjZg2ggFpwLPmTGpSj7wfIpuq5XbWs72PQtePbv9J02rkAmJyQKBgBya\nyihqiyJdraVoclxqtGhx7CRZuW7nEiUmJ23krWe0vNvUtBuZOuSgEf19qKQj5tUT\nCIipQHCSk/D3IwPXGSA8176f3KubpI5v+Bzhd4MxxylYa1KW98ujzA0xHpFuAtlD\nq4h96vgz08Ka52Mftii2m9thnRwswL6PamfROlYBAoGAU45MSiaXdEFxnaUBHoIl\nEUov3N5pIPqvp518htZKmntjEGY17mbLNoaIw8fRCa3ftlWBew0LtsyF9wRqZwy1\nng4oXII4jCHkoht9GWmtSLWVrN8WokBtlNb0VntO4VQKzkPddkv70jdPtEj0fpZC\nz8Zeeodln4ZEHsiLBtChQ8k=\n-----END PRIVATE KEY-----\n",
+  "client_email": "oniklothoxyz@oniklotho-index.iam.gserviceaccount.com",
+  "client_id": "108347689620410779906",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/oniklothoxyz%40oniklotho-index.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

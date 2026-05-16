@@ -1,0 +1,10 @@
+uploads/
+vendor/
+node_modules/
+*.zip
+*.rar
+*.mp4
+cookies.txt
+.env
+config.php
+baglan.php
